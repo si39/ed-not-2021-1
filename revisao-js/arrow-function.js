@@ -45,7 +45,7 @@ function megasena() {
 } 
 console.log(megasena(), megasena(), megasena(),megasena(),megasena(),megasena())
 
-//QUANDO A FUNÇÃO NÃO TEM ARGUMENTOS , NA arrow function é neessário deixa
+//QUANDO A FUNÇÃO NÃO TEM ARGUMENTOS , NA arrow function é necessário deixar
 //um par de parênteses vazios para marcar seu lugar
 const megasena = () => Math.floor(Math.random() * 60 + 1)
 console.log(megasena2(), megasena2(), megasena2(),megasena2(),megasena2(),megasena2())
