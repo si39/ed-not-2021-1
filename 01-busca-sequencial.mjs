@@ -102,6 +102,10 @@ const primos = [
 7919
 ]
 
+console.time('Buscando 3662')
+console.log(buscaSequencial(primos, 3662))
+console.timeEnd('Buscando 3662')
+
 console.time('Buscando 317')
 console.log(buscaSequencial(primos, 317))
 console.timeEnd('Buscando 317')
@@ -115,14 +119,10 @@ console.log(buscaSequencial(primos, 4001))
 console.timeEnd('Buscando 4001')
 
 
-console.time('Buscando 3662')
-console.log(buscaSequencial(primos, 3662))
-console.timeEnd('Buscando 3662')
-
+import { nomes } from './includes/vetor-nomes.mjs'
 
 console.log('-------------------------------------------------------')
 
-import { nomes } from './includes/vetor-nomes.mjs'
 
 console.time('Buscando ZULEICA')
 console.log(buscaSequencial(nomes, 'ZULEICA')) >= 0)
